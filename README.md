@@ -39,7 +39,6 @@
 `rnorm(10, 20, 5) #`  
 
 `qnorm(0.25, 10, 2) #`  
-
 `cbind(dataA, dataB) #`  
 
 `rbind(data, dataB) #`  
@@ -79,7 +78,17 @@
 `choose(10, 6) * factorial(6) #`
 (1512894 尚灵)
 
-## 三、数据操纵（30分）  
+###  (二)总结Hadley Wickham开发的readxl和haven包中的常用文件导入函数，可参考其个人网页整理。
+
+###  [http://hadley.nz/](http://hadley.nz/)
+
+## 三、数据操纵（30分）
+
+###  (一)安装readxl包，读入rs2015.xlsx文件，取名为rs2015。该文件为2015年选修《R语言统计应用入门》的所有同学的期中成绩（mid）和期末成绩（final）。写出读入命令的语句，并结合dplyr包完成以下任务：
+（1512881 司可一）
+
+
+
 ***
 ### &emsp;&emsp;（二）数据*PDSurveyBasic.xlsx*是南开大学汪新建教授主持的《医患信任建设的社会心理机制研究》这一项目中《医患社会心态问卷：患方卷》的部分试调查数据，该数据使用问卷星平台获得，下载*Excel*格式后我们将部分基础信息提取保存，并将变量名改为英文。部分数据显示如下：  
 |*ID*|*Time1*|*Time2*|*IP*|*Relationship*|*Student*|
